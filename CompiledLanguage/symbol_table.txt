@@ -1,0 +1,19 @@
+ID: @x; TYPE: INT; SCOPE: global; VALUE: 2
+ID: @x1; TYPE: INT; SCOPE: global; VALUE: 20
+ID: @x2; TYPE: INT; SCOPE: global; VALUE: 30
+ID: @y; TYPE: INT; SCOPE: global; VALUE: 100
+ID: @f; TYPE: FLOAT; SCOPE: global; VALUE: 30.000000
+ID: @f1; TYPE: FLOAT; SCOPE: global; VALUE: 0.000000
+ID: @x; TYPE: INT; SCOPE: @testFunction; VALUE: 0
+ID: @z; TYPE: INT; SCOPE: @testFunction; VALUE: 0
+ID: @param1; TYPE: INT; SCOPE: @test; VALUE: 0
+ID: @param2; TYPE: INT; SCOPE: @test; VALUE: 0
+ID: @f; TYPE: STRING; SCOPE: @test; VALUE: 
+ID: @x; TYPE: INT; SCOPE: C1; VALUE: 0
+ID: @str; TYPE: STRING; SCOPE: C1; VALUE: 
+ID: @y; TYPE: FLOAT; SCOPE: C2; VALUE: 0.000000
+ID: @st; TYPE: STRING; SCOPE: C2; VALUE: 
+ID: @i; TYPE: INT; SCOPE: main; VALUE: 22
+ID: @j; TYPE: INT; SCOPE: main; VALUE: 11
+ID: @var1; TYPE: INT; SCOPE: main; VALUE: 20
+ID: @var2; TYPE: INT; SCOPE: main; VALUE: -80

@@ -1,0 +1,9 @@
+ID: @testFunction; ARG_NUMBER: 2  RETURN_VALUE: Integer
+Function Arguments: 
+int; int; 
+ID: @testFunction; ARG_NUMBER: 2  RETURN_VALUE: Integer
+Function Arguments: 
+int; float; 
+ID: @test; ARG_NUMBER: 3  RETURN_VALUE: Integer
+Function Arguments: 
+int; int; string; 

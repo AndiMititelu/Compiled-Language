@@ -1,0 +1,63 @@
+int @x;
+int @x1;
+int @x2;
+int @y;
+int @arr[10];
+float @f:=20.0;
+float @f1;
+
+int @testFunction(int @x, int @z) 
+{
+  return 1; 
+};
+
+int @testFunction(int @x, float @z) 
+{
+  return 2;
+};
+
+int @test(int @param1, int @param2, string @f) 
+{
+    @f:=2.0;
+    return 1;
+};
+
+Class C1 
+{
+    int @x;
+    string @str;
+};
+
+Class C2 
+{
+    float @y;
+    string @st;
+};
+
+begin_progr
+{
+    C2 @catel;
+    @catel.@y:=100;
+    @f:=30.0; 
+    @x := 10; 
+    @x1 := 20; 
+    @x2 := 30; 
+    @y := 100;
+    If  ( @x1 + @test(@x1,@x2, "sdsds") < 5 + @x1 && ( (@x > 2 && @x1 < 4+@x2) && @x == 2) )
+    {
+        @x:=2;
+    };
+    int @i;
+    int @j;
+    For(@i:=0, @j:=10; (@i+@j)<100; @j:=@j+1, @i:=@j*2 )
+    {
+        
+    };
+    @x:=@test(@test(@x1,3,"asdas"),  @y+4, "sdsds"); 
+
+    int @var1:=20;
+    int @var2:=100/@var1 - 5+@var1 -100;
+    println(@var2);
+    return 0;
+    end_progr
+}
